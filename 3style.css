@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#navigation{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+}
+#navigation i{
+    color: aliceblue;
+}
+#navigation h2{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+
+} 
+#photo{
+    
+width: 100%;
+height: 100%;
+background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-og?wid=1200&hei=630&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1585603351523);
+background-position: center;
+background-size: cover;
+}
+#photo h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 20px;
+}
+#photo h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 370px;
+    padding-right: 400px;
+    
+}
+
+
+
+
+#second{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://m.gadgetsnow.com/photo/71073258.cms);
+    background-size: auto;
+ 
+}
+#second h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color:black;
+    padding-left: 430px;
+    padding-right: 400px;
+    
+    padding-top: 5px;
+}
+#second h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    padding-left: 340px;
+padding-top: 1px;
+    
+
+}
+#third{
+    width:100%;
+    height: 100%;
+    background-image: url(https://donanimgunlugu.com/wp-content/upload/2019/09/iPhone-11-Pro-1-696x394.jpg);
+    background-size:contain;
+    
+    background-position: center;
+}
+#third h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 370px;
+    padding-right: 370px;
+    padding-top: 20px;
+}
+#third h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 300px;
+padding-top: 1px;
+    
+}
+
+#parent{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#forth{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://www.techlicious.com/images/sized/images/computers/apple-imac-retina-4k-uhd-display-510px.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#forth h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-left: 50px;
+   
+    padding-top: 20px;
+}
+#forth h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding-left: 20px;
+padding-top: 1px;
+    
+}
+
+
+#fifth{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2019/12/2020-11-inch-iPad-Pro-with-Metal-Back-scaled.jpg?w=1500&quality=82&strip=all&ssl=1);
+
+    background-size: cover;
+}
+#fifth h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-left: 50px;
+  
+    padding-top: 20px;
+}
+#fifth h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding-left: 5px;
+    padding-top: 1px;
+    
+    }
+
+#parent2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#six{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1580087608240-dec5d6d8f659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-size: cover; 
+    background-position: center;
+}
+#six h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-left: 50px;
+    
+    padding-top: 20px;
+}
+#six h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding-left: 30px;
+    
+    padding-top: 1px;
+}
+
+
+#seven{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://assets.mspimages.in/wp-content/uploads/2019/09/Apple-Watch-Series-5-Workouts.png);
+    background-size: cover;
+
+}
+#seven h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-left: 50px;
+   
+    padding-top: 20px;
+}
+#seven h5{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(223, 19, 19);
+    padding-left: 62px;
+    padding-top: 1px;
+    
+}
+#seven h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+    padding-left: 10px;
+    padding-top: 1px;
+    
+
+}
+
+#parent3{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#eight{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1514826786317-59744fe2a548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    
+}
+#eight h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color:black;
+    padding-left: 50px;
+    padding-top: 10px;
+   
+   
+}
+#eight h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+    padding-left: 10px;
+    padding-top: 1px;
+    
+}
+
+#nine{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://fdn.gsmarena.com/imgroot/news/20/05/iphone-12-series-launch-late-november/-1220x526/gsmarena_004.jpg);
+    
+}
+#nine h1{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-left: 50px;
+    padding-top: 10px;
+   
+}
+#nine h6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+    padding-left: 50px;
+    padding-top: 1px;
+    
+}
